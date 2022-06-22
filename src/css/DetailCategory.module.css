@@ -1,0 +1,11 @@
+.cardImg {
+    width: 201px;
+}
+.cardBody {
+    width: 300px;
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    padding: 1rem;
+    background: #f7f7f7;
+}
