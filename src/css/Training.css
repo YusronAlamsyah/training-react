@@ -29,3 +29,36 @@
   .menu li a:hover {
     background-color: #111;
   }
+
+  .listCat {
+    list-style: none;
+    font-family: 'Marck Script', cursive;
+  }
+
+  .listCat a{
+    text-decoration: none;
+    color:#000;
+  }
+  
+  .listCat li {
+    margin-bottom: 5px;
+    border-bottom: 2px #404B51 dotted;
+    font-size: 26px;
+    line-height: 1;
+  }
+  
+  .listCat li span:nth-child(odd) {
+    padding-right: 6px; 
+    color: #404B51;
+  }
+  
+  .listCat li span:nth-child(even) {
+    float: right; 
+    padding-left: 6px;
+    color: #000;
+  }
+  
+  .listCat span {
+    position: relative;
+    bottom: -7px;
+  }
