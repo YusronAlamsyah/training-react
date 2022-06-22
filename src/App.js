@@ -7,6 +7,7 @@ import Navbar from './pages/Navbar';
 import Home from './pages/Home';
 import Category from './pages/Category';
 import DetailCategory from './pages/DetailCategory';
+import "./css/Training.css";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Routes>
               <Route element={<Home />} path="/" />
               <Route element={<Category />} path="/category" />
-              <Route element={<DetailCategory />} path="/detail-category/id" />
+              <Route element={<DetailCategory />} path="/detail-category/:id" />
           </Routes>
       </div>
     </BrowserRouter>
